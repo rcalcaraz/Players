@@ -1,0 +1,14 @@
+.playerContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.player {
+    border: 1px solid black;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

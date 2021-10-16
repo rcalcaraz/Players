@@ -1,0 +1,7 @@
+<h1>Players</h1>
+<h2>{{selectedPlayerName}}</h2>
+<h2>{{selectedPlayerAge}}</h2>
+<h2>{{selectedPlayerPosition}}</h2>
+<div ngClass="playerContainer">
+    <app-player [player]="player" (notify)="onNotify($event)" *ngFor="let player of players" ngClass="player"></app-player>
+</div>
